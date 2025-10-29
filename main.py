@@ -319,7 +319,7 @@ class home(Screen):
                 self.remove_widget(self.pictures)
             self.get_clock()
     
-class MyMainApp(App):
+class MultiMedia_UIApp(App):
     def build(self):
         sm = ScreenManager()
         sm.add_widget(startScreen(name="start"))
@@ -330,4 +330,4 @@ class MyMainApp(App):
 
     
 if __name__ == '__main__':
-    MyMainApp().run()
+    MultiMedia_UIApp().run()
