@@ -16,6 +16,7 @@ Music can be played from the music submenu, a gif was added to the background ad
 
 <br>
 The clock feature has a dedicated screen. Using kivys screen manager allowed for transistions between screens as well as control over how the transistion looks. The background is synched to the JSON file too, meaning any changes to the background on the home screen will affect the clock screen.
+<br>
 <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/cd5d2062-0e5c-4e44-8fd6-cba6f616f83b" />
 <br>
 
