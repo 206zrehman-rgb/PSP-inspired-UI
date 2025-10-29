@@ -1,4 +1,7 @@
 # PSP-inspired-UI
+
+<video src="/Users/zainrehman/Documents/officalProjects/projectVideos" width="320" height="240" controls></video>
+
 A PSP inspired user interface. This interface was made using python along with the Kivy library. Featuring a music player, customisable background as well as a clock which was inspired by the PSP Go clock. The UI is intended to provide a visually pleasing and immersive experience.
 
 Kivy was chosen as the library to build the UI rather then other options such as TKinter and pyQT due to its flexible layouts and widgets, allowing for a design similar to the older look of PSP menus. 
