@@ -1,0 +1,162 @@
+#:kivy 2.1.0
+
+    
+<home>:
+
+    Image:
+        id: bg
+        source:"images/bg1.JPG"
+        size: root.size
+        pos: root.pos
+        allow_stretch: True
+        keep_ratio: False
+
+
+    Image:
+        id: gif
+        source: "images/lights4.gif"
+        anim_delay: 0.05
+        size: root.size
+        pos: root.pos
+        allow_stretch: True
+        keep_ratio: False
+    
+    Label:
+        id:controls
+        text: "use left and right arrow keys to control tab bar"
+        font_name: "Roboto-Bold.ttf"
+        pos_hint: {'x': .69, 'y': .90}
+        size_hint: .1, .1
+        font_size: 35
+        color: 1,1,1,1
+
+    FloatLayout:
+        pos: 0,0
+        size: root.width, root.height
+
+        Label:
+            id: box1
+            text: "pictures"
+            pos_hint: {'x': .0, 'y': .65} 
+            size_hint: (.1,.1)
+            canvas.before:
+                Color:
+                    rgba: root.box1_bg_color
+                RoundedRectangle:
+                    pos: self.pos
+                    size: self.size
+                    radius: [10]
+        
+
+
+
+        Label:
+            id: box2
+            text: "music"
+            pos_hint: {'x': .13, 'y': .65} 
+            size_hint: (.1,.1)
+            canvas.before:
+                Color:
+                    rgba: root.box2_bg_color
+                RoundedRectangle:
+                    pos: self.pos
+                    size: self.size
+                    radius: [10]
+        
+
+        Label:
+            id: box3
+            text: "customise"
+            pos_hint: {'x': .26, 'y': .65} 
+            size_hint: (.1,.1)
+            canvas.before:
+                Color:
+                    rgba: root.box3_bg_color
+                RoundedRectangle:
+                    pos: self.pos
+                    size: self.size
+                    radius: [10]
+        
+
+        Label:
+            id: box4
+            text: "Clock"
+            pos_hint: {'x': .39, 'y': .65} 
+            size_hint: (.1,.1)
+            canvas.before:
+                Color:
+                    rgba: root.box4_bg_color
+                RoundedRectangle:
+                    pos: self.pos
+                    size: self.size
+                    radius: [10]
+
+        Label:
+            id: bigSign
+            text: "WELCOME BACK........"
+            pos_hint: {'x': .7, 'y': .0} 
+            size_hint: .1, .1
+            font_size: 90
+            color: 0,0,0,1
+        
+        
+<clockscreen>:
+
+    Image:
+        id: clockbg
+        source:"images/bg1.JPG"
+        size: root.size
+        pos: root.pos
+        allow_stretch: True
+        keep_ratio: False
+
+    Image:
+        id: gif
+        source: "images/Clocks.gif"
+        anim_delay: 0.05
+        size: root.size
+        pos: root.pos
+        allow_stretch: True
+        keep_ratio: False
+
+
+    Label:
+        text: "Press space to return to home"
+        pos_hint: {'x': .45, 'y': .0} 
+        font_name: "Roboto-Bold.ttf"
+        size_hint: .1, .1
+        font_size: 50
+        color: 2,97,161,1
+    
+
+
+<startScreen>:
+    Image:
+        id: startbg
+        source:"images/bg1.JPG"
+        size: root.size
+        pos: root.pos
+        allow_stretch: True
+        keep_ratio: False
+    Label:
+        id: welcomescreen
+        text: "Welcome Back"
+        pos_hint: {'x': .45, 'y': .45} 
+        size_hint: .1, .1
+        font_size: 120
+        color: 42,97,161,1
+    
+    Label:
+        id: welcomecontinue
+        text: "press the Spacebar "
+        pos_hint: {'x': .45, 'y': .05} 
+        size_hint: .1, .1
+        font_name: "Roboto-Bold.ttf"
+        font_size: 50
+        color: 42,97,161,1
+
+
+        
+
+
+    
