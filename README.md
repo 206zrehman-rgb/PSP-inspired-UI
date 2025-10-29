@@ -4,9 +4,9 @@ A PSP inspired user interface. This interface was made using python along with t
 Kivy was chosen as the library to build the UI rather then other options such as TKinter and pyQT due to its flexible layouts and widgets, allowing for a design similar to the older look of PSP menus. 
 
 Featuring customisation saved in json in the form of backgrounds being able to be changed and saved for when the next time the application is ran.
-<img width="1000" height="958" alt="image" src="https://github.com/user-attachments/assets/4b82ea41-7ef7-489b-8bc8-e4291b1770eb" /> 
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/4b82ea41-7ef7-489b-8bc8-e4291b1770eb" /> 
 <img width="1606" height="1258" alt="image" src="https://github.com/user-attachments/assets/c2a24d6a-a2f0-4c70-b3b3-852f47601972" />
-
+<br>
 
 Music can be played from the music submenu, a gif was added to the background add more character to this particular submenu.
 <img width="1606" height="1258" alt="image" src="https://github.com/user-attachments/assets/09054d53-5ff4-4ceb-b6c0-8ca58f1cb660" />
